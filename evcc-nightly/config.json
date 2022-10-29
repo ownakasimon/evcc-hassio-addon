@@ -3,7 +3,7 @@
   "version": "nightly",
   "slug": "evcc-nightly",
   "description": "Nightly version of EV Charge Controller!",
-  "url": "https://github.com/evcc-io/evcc",
+  "url": "https://github.com/ownakasimon/evcc",
   "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
   "startup": "application",
   "panel_icon": "mdi:ev-station",
@@ -13,7 +13,7 @@
   "ingress": true,
   "ingress_port": 7070,
   "init": false,
-  "image": "andig/evcc",
+  "image": "ownakasimon/evcc",
   "options": {
       "config_file": "/config/evcc.yaml"
   },
