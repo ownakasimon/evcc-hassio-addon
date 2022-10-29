@@ -14,7 +14,7 @@
   "ingress": true,
   "ingress_port": 7070,
   "init": false,
-  "image": "ownakasimon/evcc",
+  "image": "andig/evcc",
   "options": {
       "config_file": "/config/evcc.yaml"
   },
